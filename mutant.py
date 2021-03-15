@@ -13,7 +13,6 @@ def isMutant(dna):
         # 1 -> listToMatrix devuelve una matriz a partir de la lista
         W = Matriz(listToMatrix(dna))
 
-        W.ver_matriz()
 
         # 2 -> recorrer las filas
         for i in range(W.get_size()):
@@ -24,7 +23,6 @@ def isMutant(dna):
 
         if contador > 1:
             es_mutante = True
-            # incrementar en 1 count_mutant_dna
 
         else:
             # 3 -> recorrer las columnas
